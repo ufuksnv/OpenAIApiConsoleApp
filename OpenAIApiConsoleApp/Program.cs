@@ -19,7 +19,7 @@ namespace OpenAIConsoleApp
             else
             {
 
-                OpenAIClient client = new("Your Key");
+                OpenAIClient client = new OpenAIClient("Your Key");
                 var chatCompletionsOptions = new ChatCompletionsOptions()
                 {
                     DeploymentName = "gpt-3.5-turbo-0125",
